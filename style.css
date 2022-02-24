@@ -1,0 +1,99 @@
+/* Colors and fonts */
+
+body {
+	background: rgb(255,255,255);
+	color: rgb(4, 186, 185);
+	font-family: 'Raleway', sans-serif;;
+	font-size: 16px;
+}
+h1,h2,h3 {
+	font-family: 'Libre Baskerville', serif;;
+}
+h1 {
+	color: #575FD;
+	font-size: 32px;
+}
+h2 {
+	color: rgb(0, 142, 137);
+	font size: 24px;
+	font-weight: lighter;
+} 
+a{
+	text text-decoration: none;
+	color: lightpink;
+}
+a:hover{
+	color: lightpink;
+}
+
+#logo {
+	max-width: 30%;
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+}
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin:  20px;
+	text-align: center;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.img-circle {
+	border-radius: 70%;
+}
+.btn-blue {
+	background-color: rgb(0, 142, 137);
+	color:  lightpink;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: lightpink;
+	color: rgb(0, 142, 137);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display:  inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(0, 142, 137);
+}
+
+/* Design adjustments using id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
